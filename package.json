@@ -1,14 +1,18 @@
 {
+  "homepage": "https://chalkpix-dev.github.io/KGH/",
   "name": "kgh",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "vite": "^4.3.2"
   },
   "dependencies": {
