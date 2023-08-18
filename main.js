@@ -1,3 +1,5 @@
+//page url = http://127.0.0.1:5500/index.html?p1=11.401736541896099&p2=76.683730423760906
+
 import './style.css'
 // import * as L from 'leaflet'
 import Experience from './scripts/MyLeafletExperience'
